@@ -6,7 +6,13 @@ import React from "react";
 function App() {
   return (
     <div>
-      <h1>This is my static website</h1>
+      <div>
+        <h1 className="font-bold">This is Root App</h1>
+        <p>
+          Start by adding pages in the src folder and then add the routes in the
+          App.jsx file
+        </p>
+      </div>
       {/* <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />
