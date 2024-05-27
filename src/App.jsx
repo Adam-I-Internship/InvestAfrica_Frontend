@@ -1,24 +1,17 @@
 import React from "react";
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import HomePage from './HomePage';
-// import AboutPage from './AboutPage';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import IndustryPage from "./pages/IndustryPage";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div>
-      <div>
-        <h1 className="font-bold">This is Root App</h1>
-        <p>
-          Start by adding pages in the src folder and then add the routes in the
-          App.jsx file
-        </p>
-      </div>
-      {/* <Router>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
-        </Switch>
-      </Router> */}
+      <Router>
+        <Routes>
+          <Route path="/industries" element={<IndustryPage />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
