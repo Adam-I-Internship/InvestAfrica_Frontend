@@ -1,0 +1,52 @@
+.industrydrop{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.industrydrop .left{
+    width: 30%;
+    height: 100%;
+    overflow: auto;
+    margin-left: 7px;
+}
+
+.industrydrop .middle{
+    width: 30%;
+    height: 100%;
+    margin-left: 17px;
+    overflow: auto;
+    margin-left: 7px;
+}
+
+.industrydrop .right{
+    width: 40%;
+    height: 100%;
+    margin-left: 17px;
+    overflow: auto;
+    margin-left: 7px;
+}
+
+.industrydrop #part{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: white;
+}
+
+.industrydrop #part:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.industrydrop #part p{
+    margin-left: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}

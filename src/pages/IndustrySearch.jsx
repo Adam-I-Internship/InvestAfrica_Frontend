@@ -62,47 +62,47 @@ const countries = [
 
 function IndustrySearch() {
   return (
-    <div className="flex flex-col pb-6 bg-white">
-      <header className="sticky top-0 z-50 flex justify-between px-6 pb-1 w-full shadow-md bg-white leading-[150%] max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+    <div className="tw-flex tw-flex-col tw-pb-6 tw-bg-white">
+      <header className="tw-sticky tw-top-0 tw-z-50 tw-flex tw-justify-between tw-px-6 tw-pb-1 tw-w-full tw-shadow-md tw-bg-white tw-leading-[150%] max-md:tw-flex-wrap max-md:tw-px-5 max-md:tw-max-w-full">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6143f63e07273e4a40a19a5968d6e6bb0f2b61fa7e56b4fb178c022d7d0098c?apiKey=54911849f61d4333a39b368307a01ae9&"
           alt="Logo"
-          className="shrink-0 aspect-[1.22] w-[82px]"
+          className="tw-shrink-0 tw-aspect-[1.22] tw-w-[82px]"
         />
-        <div className="flex justify-center gap-3 mt-2 bg-white rounded-lg border-2 border-solid border-neutral-400 text-zinc-500 max-md:flex-wrap">
+        <div className="tw-flex tw-justify-center tw-gap-3 tw-mt-2 tw-bg-white tw-rounded-lg tw-border-2 tw-border-solid tw-border-neutral-400 tw-text-zinc-500 max-md:tw-flex-wrap">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d9c5eaf8585d86224ed95710a502f37da9895fe40b334d2c7341c683594b3dc9?apiKey=54911849f61d4333a39b368307a01ae9&"
             alt=""
-            className="shrink-0 w-6 aspect-square"
+            className="tw-shrink-0 tw-w-6 tw-aspect-square"
           />
           <input
             type="text"
-            className="flex-1 bg-transparent border-none focus:outline-none w-[500px]"
+            className="tw-flex-1 tw-bg-transparent tw-border-none focus:tw-outline-none tw-w-[500px]"
             placeholder="What are you looking for..."
             aria-label="Search"
           />
         </div>
-        <div className="flex gap-7 items-center text-xl font-medium text-black whitespace-nowrap">
-          <div className="flex gap-1 self-stretch my-auto font-semibold text-right">
-            <div className="my-auto text-sm ">Eng</div>
+        <div className="tw-flex tw-gap-7 tw-items-center tw-text-xl tw-font-medium tw-text-black tw-whitespace-nowrap">
+          <div className="tw-flex tw-gap-1 tw-self-stretch tw-my-auto tw-font-semibold tw-text-right">
+            <div className="tw-my-auto tw-text-sm ">Eng</div>
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/dbba916e2f59d5c43d520df3d8386331a77deb79ceafe4c614fc27bf7cc9d6cd?apiKey=54911849f61d4333a39b368307a01ae9&"
               alt="Language Selector"
-              className="shrink-0 aspect-[1.08] w-[25px]"
+              className="tw-shrink-0 tw-aspect-[1.08] tw-w-[25px]"
             />
           </div>
           <a
             href="/signup"
-            className="justify-center px-6 py-2 border-2 text-base border-green-500 rounded-lg shadow-sm max-md:px-5"
+            className="tw-justify-center tw-px-6 tw-py-2 tw-border-2 tw-text-base tw-border-solid tw-border-green-500  tw-rounded-lg tw-shadow-sm max-md:tw-px-5"
           >
             Signup
           </a>
           <a
             href="/login"
-            className="justify-center px-6 py-2.5 text-base text-white bg-green-500 rounded-lg shadow-sm max-md:px-5"
+            className="tw-justify-center tw-px-6 tw-py-2.5 tw-text-base tw-text-white tw-bg-green-500 tw-rounded-lg tw-shadow-sm max-md:tw-ypx-5"
           >
             Login
           </a>

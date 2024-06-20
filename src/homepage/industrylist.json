@@ -1,0 +1,16 @@
+[
+    {"name":"Agriculture","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2Fc3b6610030f845b4b8524407385b749d"},
+    {"name":"Banking","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F79250590314d47ffa1bf1490c6390bfb"},
+    {"name":"Manufacturing","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F9d6aba74d2964f0bab41a1dea2b9fc8e"},
+    {"name":"Mining","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F4b72c35d418a4e21a7150fb17ef3bbe5"},
+    {"name":"Oil & Gas","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F809f988b77944b4f8d3e51941098bc2e"},
+    {"name":"Retail","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2Febf44f537726411e82945e11b9761b0e"},
+    {"name":"Tourism","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2Fc9ac2a9acd294f969a959f1c463a5f63"},
+    {"name":"Agriculture","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2Fc3b6610030f845b4b8524407385b749d"},
+    {"name":"Banking","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F79250590314d47ffa1bf1490c6390bfb"},
+    {"name":"Manufacturing","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F9d6aba74d2964f0bab41a1dea2b9fc8e"},
+    {"name":"Mining","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F4b72c35d418a4e21a7150fb17ef3bbe5"},
+    {"name":"Oil & Gas","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2F809f988b77944b4f8d3e51941098bc2e"},
+    {"name":"Retail","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2Febf44f537726411e82945e11b9761b0e"},
+    {"name":"Tourism","image":"https://cdn.builder.io/api/v1/image/assets%2Fc06c8574749d44938d28ca8b23064d20%2Fc9ac2a9acd294f969a959f1c463a5f63"}
+]

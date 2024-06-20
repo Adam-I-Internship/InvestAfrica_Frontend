@@ -5,4 +5,9 @@ export default {
     extend: {},
   },
   plugins: [],
+  corePlugins: {
+    // Disable specific utilities
+    preflight: false, // Disable Tailwind's base styles
+    }, // Add a prefix to all Tailwind classes
+  prefix: 'tw-',
 };

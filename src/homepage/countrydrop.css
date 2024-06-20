@@ -1,0 +1,139 @@
+.countrydrop{
+    padding: 0px 0px 25px 24px;
+    width: 100%;
+}
+
+.countrydrop::-webkit-scrollbar{
+    display: none;
+}
+
+.countrydrop .top{
+    display: flex;
+    flex-direction: row;
+}
+
+.countrydrop .top #left{
+    width: 60%;
+}
+
+.countrydrop .top #left #text{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.countrydrop .top #left #input{
+    padding: 8px 16px 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #E0E0E0;
+    height: 50px;
+    width: 478px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countrydrop .top #left #input table{
+    width: 100%;
+    height: 100%;
+}
+
+.countrydrop .top #left #input img{
+    width: 24px;
+    height: 24px;
+    align-items: center;
+}
+
+.countrydrop .top #left #input input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+}
+
+.countrydrop .top #left #input input:focus{
+    outline: none;
+}
+
+.countrydrop .top #right{
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px 10px;
+    width: 40%;
+}
+
+.countrydrop .top #right #image{
+    height: 100%;
+}
+
+.countrydrop .top #right img{
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countrydrop .top #right img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.countrydrop .bottom{
+    width: 95.5%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 30px 10px;
+    margin-right: 20px;
+}
+
+.countrydrop .bottom #scroll{
+    display: flex;
+}
+
+.countrydrop .bottom #scroll .contain{
+    flex: 0 0 auto;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.countrydrop .bottom #scroll .contain img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.countrydrop .bottom #scroll .contain #text {
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 20px 20px;
+    width:100%;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #4CCD10;
+    background: #3F3F3FB2;
+    display: flex;
+    line-height: 0%;
+}
+
+.countrydrop .bottom #scroll .contain:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.countrydrop .bottom #scroll .contain #text p{
+    margin-left: 10px;
+}
+
+.countrydrop .bottom #scroll .contain #text #upright {
+    width: 50px;
+    height: 50px;
+}
