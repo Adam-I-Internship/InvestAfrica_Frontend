@@ -1,10 +1,11 @@
 import React,{useState} from 'react'
 import "./countrydrop.css"
+import { MdArrowOutward } from "react-icons/md";
+import { IoSearch } from "react-icons/io5";
 import data from "./maplist.json"
 import searchicon from "../images/searchbar.svg"
 import map from "../images/smallmap.png"
 import scim from "../images/dropscroll.png"
-import upright from "../images/arrowupright.svg"
 
 function Countrydrop() {
 
@@ -28,7 +29,7 @@ function Countrydrop() {
                 <div id="input">
                     <table>
                         <tr>
-                            <td><img src={searchicon} alt="search" /></td>
+                            <td><IoSearch /></td>
                             <td>
                                 <input type="text" placeholder='search' id='dropsearch1' value={search} onChange={e=>{setSearch(e.target.value)}}/>
                             </td>
@@ -48,7 +49,7 @@ function Countrydrop() {
                 countrylist.map((country,key)=>(
                     <div className='contain' key={key} onClick={()=>handleCountry(country.name)}>
                         <div id="text">
-                            <p>{country.name}</p><img src={upright} id='upright'></img>
+                            <p>{country.name} <MdArrowOutward/></p>
                         </div>
                         <img src={scim} alt="scrollimage" id='flag'/>
                     </div>

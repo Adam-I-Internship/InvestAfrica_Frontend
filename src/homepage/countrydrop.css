@@ -33,6 +33,7 @@
     width: 478px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 30px;
 }
 
 .countrydrop .top #left #input table{
@@ -40,17 +41,11 @@
     height: 100%;
 }
 
-.countrydrop .top #left #input img{
-    width: 24px;
-    height: 24px;
-    align-items: center;
-}
-
 .countrydrop .top #left #input input{
     width: 100%;
     height: 50px;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .countrydrop .top #left #input input:focus{
@@ -131,9 +126,6 @@
 }
 .countrydrop .bottom #scroll .contain #text p{
     margin-left: 10px;
-}
-
-.countrydrop .bottom #scroll .contain #text #upright {
-    width: 50px;
-    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
