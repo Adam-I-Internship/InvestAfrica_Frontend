@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import "./search.css";
-import search from "../images/searchbar.svg";
+import { IoSearch } from "react-icons/io5";
 import "./frontpage.css";
-import Countrydrop from './countrydrop';
 
 const data=["Agriculture","Infrastructure","Tourism"];
 
@@ -37,7 +36,7 @@ function Search() {
                     <tbody>
                         <tr>
                             <td id="searchbar">
-                                <img src={search} alt="search bar" />
+                                <IoSearch />
                             </td>
                             <td id="searchbox">
                                 <input type="text" id="input" placeholder="Search" />

@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import "./map.css"
 import data from "./maplist.json"
 import map from "../images/map.png"
-import searchicon from "../images/searchbar.svg"
+import { IoSearch } from "react-icons/io5";
 import nigeriamap from "../images/mapicon/nigeria.png"
 import egyptmap from "../images/mapicon/egypt.png"
 import ghanamap from "../images/mapicon/ghana.png"
@@ -56,7 +56,7 @@ function Map() {
                 <div id="input">
                     <table>
                         <tr>
-                            <td id='searchbar'><img src={searchicon} alt="searchicon" id='searchicon' /></td>
+                            <td id='searchbar'><IoSearch /></td>
                             <td><input type="text" id='text' placeholder='Search countries' value={search} onChange={handleSearch}/></td>
                         </tr>
                     </table>

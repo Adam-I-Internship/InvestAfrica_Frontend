@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./frontpage.css"
 import Navigation from './navigation'
 import Search from './search'
@@ -15,7 +16,7 @@ import crafting from "../images/crafting.png"
 
 function Frontpage() {
 
-
+  const navigator = useNavigate();
   return (
     <div>
       <Navigation/>
@@ -145,7 +146,7 @@ function Frontpage() {
           <p id='first'>READY TO GET STARTED?</p>
           <p id="second">Invest in the future of Africa by signing up today!</p>
           <div id="button">
-            <button id='realbutton'>Sign Up</button>
+            <button id='realbutton' onClick={()=>navigator("/register")}>Sign Up</button>
           </div>
         </div>
       </div>

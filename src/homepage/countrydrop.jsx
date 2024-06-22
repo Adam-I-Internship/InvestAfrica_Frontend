@@ -3,7 +3,6 @@ import "./countrydrop.css"
 import { MdArrowOutward } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
 import data from "./maplist.json"
-import searchicon from "../images/searchbar.svg"
 import map from "../images/smallmap.png"
 import scim from "../images/dropscroll.png"
 

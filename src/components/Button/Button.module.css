@@ -1,0 +1,41 @@
+.button {
+  color: #000000; /* black */
+  padding: 1rem 3rem;
+  background-color: #ffffffb3; /* var(--clr-white70) */
+  border-radius: 500px;
+  transition: background-color 0.1s linear;
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: #ffffffe6; /* var(--clr-white90) */
+  transition: background-color 0.1s linear;
+}
+
+.button:active {
+  background-color: #ffffffb3; /* var(--clr-white70) */
+}
+
+.button:disabled,
+.button[disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.text {
+  font-weight: 700; /* var(--fw-semibold) */
+}
+
+.action {
+  background-color: #ffe478; /* var(--clr-lyellow) */
+}
+
+.action:hover,
+.action:focus-visible {
+  background-color: #ffcc00; /* var(--clr-yellow) */
+  transition: background-color 0.1s linear;
+}
+
+.action:active {
+  background-color: #ffe478; /* var(--clr-lyellow) */
+}

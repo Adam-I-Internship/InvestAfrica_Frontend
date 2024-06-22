@@ -1,0 +1,113 @@
+.input_wrapper {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 0.5rem; /* Space between label and input */
+
+  position: relative;
+  color: #000000e6; /* var(--clr-black90) */
+  margin-block-start: 0.5rem;
+}
+
+.label {
+  display: flex;
+  gap: 0.5rem;
+  color: #ffffffe6; /* var(--clr-white90) */
+  font-size: clamp(0.25rem, 3vw + 0.3rem, 1.1rem); /* var(--fs-small) */
+}
+
+.infoButton {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  border-radius: 12px;
+  border: 0;
+  background-color: #ffffffb3; /* var(--clr-white70) */
+  padding-inline: 1rem;
+  font-size: clamp(0.2rem, 3vw + 0.3rem, 0.9rem); /* var(--fs-smallest) */
+  font-weight: 700; /* var(--fw-semibold) */
+  flex-grow: 1;
+}
+
+.input:focus-within {
+  outline: 3px solid #ffffffe6; /* var(--clr-white90) */
+  outline-offset: -3px;
+}
+
+select.input {
+  padding-inline-end: 2.5rem;
+}
+
+option {
+  background-color: #121214; /* var(--clr-bg-gray) */
+  color: #ffffffe6; /* var(--clr-white90) */
+  font-weight: 600; /* var(--fw-medium) */
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+.message {
+  margin-block-start: 0.25rem;
+  color: #ff6767; /* var(--clr-mred) */
+  font-size: clamp(0.2rem, 3vw + 0.3rem, 0.9rem); /* var(--fs-smallest) */
+  font-weight: 600; /* var(--fw-medium) */
+  max-width: 30ch;
+}
+
+.size_xlarge {
+  height: 3rem;
+  width: 40rem;
+  border-radius: 16px;
+}
+
+.size_large {
+  height: 2.5rem;
+  width: 20rem;
+}
+
+.size_small {
+  height: 2.5rem;
+  width: 12rem;
+}
+
+.size_tablet_xlarge {
+  height: 2.5rem;
+  width: 32rem;
+}
+
+.size_tablet_large {
+  height: 2.5rem;
+  width: 16rem;
+}
+
+.size_tablet_small {
+  height: 2.5rem;
+  width: 10rem;
+}
+
+.size_mobile_large {
+  height: 2.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.size_mobile_small {
+  height: 2.5rem;
+  width: 9rem;
+}

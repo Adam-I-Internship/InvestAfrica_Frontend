@@ -1,0 +1,42 @@
+.button {
+  border: 5px solid #ffffffe6; /* var(--clr-white90) */
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600; /* var(--fw-medium) */
+  font-size: clamp(0.3rem, 3vw + 0.3rem, 1.25rem); /* var(--fs-p) */
+  cursor: pointer;
+  transition:
+    border-color 0.3s linear,
+    color 0.3s linear;
+}
+
+.white_color {
+  border-color: #ffffffe6; /* var(--clr-white90) */
+  color: #ffffffe6; /* var(--clr-white90) */
+}
+
+.black_color {
+  border-color: #000000e6; /* var(--clr-black90) */
+  color: #000000e6; /* var(--clr-black90) */
+}
+
+.button:hover,
+.button:focus-visible {
+  border-color: #ffe478; /* var(--clr-lyellow) */
+  color: #ffe478; /* var(--clr-lyellow) */
+}
+
+.button:active {
+  border-color: #ffcc00; /* var(--clr-yellow) */
+  color: #ffcc00; /* var(--clr-yellow) */
+  transition-duration: 0s;
+}
+
+@media (max-width: 600px) {
+  .button {
+    border-width: 3px;
+    font-size: clamp(0.2rem, 3vw + 0.3rem, 1rem); /* var(--fs-smaller) */
+    padding: 0.75rem 2rem;
+  }
+}
