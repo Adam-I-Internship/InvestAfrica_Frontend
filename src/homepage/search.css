@@ -40,6 +40,38 @@
     padding: 8px 16px;
 }
 
+.suggestion{
+    max-height: 0px;
+    width: 800px;
+    background-color: #FFFFFF;
+    margin-left: 90px;
+    overflow: auto;
+    position: absolute;
+    z-index: 100;
+    transition: max-height 0.3s ease;
+}
+
+.suggestion#part{
+    max-height: 300px;
+}
+
+.suggestion #part{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.suggestion #part:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.suggestion #part p{
+    margin-left: 10px;
+}
 
 #drop{
     border-right: 1px solid black;

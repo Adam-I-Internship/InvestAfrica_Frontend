@@ -1,17 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useState } from 'react';
 import "./search.css";
 import { IoSearch } from "react-icons/io5";
-import "./frontpage.css";
-
-const data=["Agriculture","Infrastructure","Tourism"];
+import company from "./company.json";
 
 function Search() {
+
+    const [search, setSearch] = useState("");
+    const [suggest, setSuggest] = useState(false);
+
+    const companydata = company.filter(f => f.company_name.toLowerCase().includes(search.toLowerCase()));
+
+    const handleInput =(e)=>{
+        setSearch(e.target.value);
+        setSuggest(true);
+    }
 
     useEffect(() => {
         const element = document.querySelector(".search");
         const realelement = element.querySelector("#sticky");
         const tab = realelement.querySelector("#table");
         const pos = tab.getBoundingClientRect().top + window.scrollY;
+        const inputfield = tab.querySelector("#searchbox");
         
         window.onscroll = () => {
             if (window.scrollY > pos) {
@@ -24,6 +33,7 @@ function Search() {
                 tab.style.border = "";
             }
         };
+
     }, []);
 
     return (
@@ -39,14 +49,23 @@ function Search() {
                                 <IoSearch />
                             </td>
                             <td id="searchbox">
-                                <input type="text" id="input" placeholder="Search" />
+                                <input type="text" id="input" placeholder="Search" value={search} onChange={handleInput} onFocus={()=>setSuggest(true)} onBlur={()=>setSuggest(false)}/>
                             </td>
                             <td id="button">
-                                <button id="rbutton">Search</button>
+                                <button id="rbutton" onClick={()=>{console.log(search)}}>Search</button>
                             </td>
                         </tr>
                     </tbody>
                 </table>
+                <div className="suggestion" id={suggest ? "part" : ""} onMouseEnter={()=>setSuggest(true)} onMouseLeave={()=>setSuggest(false)}>
+                    {
+                        companydata.map((company, index) => (
+                            <div id="part" onClick={()=>setSearch(company.company_name)}>
+                                <p>{company.company_name}</p>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
             <div className="dropdown">
                 <table id="suggest">
@@ -54,8 +73,8 @@ function Search() {
                         <tr>
                             <td>Frequently search:</td>
                             {
-                                data.slice(0,3).map((item) => (
-                                    <td id="just">{item}</td>
+                                company.slice(0,3).map((item,key) => (
+                                    <td id="just">{item.company_name}</td>
                                 ))
                             }
                         </tr>

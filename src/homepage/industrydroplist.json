@@ -1,214 +1,499 @@
 [
     {
-        "category":"category1",
-        "sub":[
-            {
-                "subcategory":"c1subcategory1",
-                "subsub":[
-                    "c1sub1subsub1",
-                    "c1sub1subsub2",
-                    "c1sub1subsub3",
-                    "c1sub1subsub4",
-                    "c1sub1subsub5",
-                    "c1sub1subsub6",
-                    "c1sub1subsub7"
-                ]
-            },
-            {
-                "subcategory":"c1subcategory2",
-                "subsub":[
-                    "c1sub2subsub1",
-                    "c1sub2subsub2",
-                    "c1sub2subsub3",
-                    "c1sub2subsub4",
-                    "c1sub2subsub5",
-                    "c1sub2subsub6",
-                    "c1sub2subsub7"
-                ]
-            },
-            {
-                "subcategory":"c1subcategory3",
-                "subsub":[
-                    "c1sub3subsub1",
-                    "c1sub3subsub2",
-                    "c1sub3subsub3",
-                    "c1sub3subsub4",
-                    "c1sub3subsub5",
-                    "c1sub3subsub6",
-                    "c1sub3subsub7"
-                ]
-            },
-            {
-                "subcategory":"c1subcategory4",
-                "subsub":[
-                    "c1sub4subsub1",
-                    "c1sub4subsub2",
-                    "c1sub4subsub3",
-                    "c1sub4subsub4",
-                    "c1sub4subsub5",
-                    "c1sub4subsub6",
-                    "c1sub4subsub7"
-                ]
-            }
+        "category": "Agriculture",
+        "sub": [
+          {
+            "subcategory": "Crop Production",
+            "subsub": [
+              "Cereal Crops",
+              "Vegetables",
+              "Fruits",
+              "Legumes",
+              "Root and Tuber Crops",
+              "Oilseeds"
+            ]
+          },
+          {
+            "subcategory": "Animal Husbandry",
+            "subsub": [
+              "Dairy Farming",
+              "Poultry Farming",
+              "Sheep and Goat Farming",
+              "Beef Cattle Farming",
+              "Pig Farming",
+              "Aquaculture"
+            ]
+          },
+          {
+            "subcategory": "Agricultural Engineering",
+            "subsub": [
+              "Farm Machinery",
+              "Irrigation Systems",
+              "Post-Harvest Technology",
+              "Soil Management",
+              "Greenhouse Technology",
+              "Agricultural Structures"
+            ]
+          },
+          {
+            "subcategory": "Agricultural Economics",
+            "subsub": [
+              "Farm Management",
+              "Agricultural Policy",
+              "Agribusiness",
+              "Rural Development",
+              "Agricultural Finance",
+              "Market Analysis"
+            ]
+          },
+          {
+            "subcategory": "Agroforestry",
+            "subsub": [
+              "Silvopasture",
+              "Alley Cropping",
+              "Forest Farming",
+              "Windbreaks",
+              "Riparian Buffers",
+              "Home Gardens"
+            ]
+          },
+          {
+            "subcategory": "Horticulture",
+            "subsub": [
+              "Floriculture",
+              "Pomology",
+              "Viticulture",
+              "Landscape Horticulture",
+              "Olericulture",
+              "Nursery Management"
+            ]
+          }
         ]
     },
     {
-        "category":"category2",
-        "sub":[
-            {
-                "subcategory":"c2subcategory1",
-                "subsub":[
-                    "c2sub1subsub1",
-                    "c2sub1subsub2",
-                    "c2sub1subsub3",
-                    "c2sub1subsub4",
-                    "c2sub1subsub5",
-                    "c2sub1subsub6",
-                    "c2sub1subsub7"
-                ]
-            },
-            {
-                "subcategory":"c2subcategory2",
-                "subsub":[
-                    "c2sub2subsub1",
-                    "c2sub2subsub2",
-                    "c2sub2subsub3",
-                    "c2sub2subsub4",
-                    "c2sub2subsub5",
-                    "c2sub2subsub6",
-                    "c2sub2subsub7"
-                ]
-            },
-            {
-                "subcategory":"c2subcategory3",
-                "subsub":[
-                    "c2sub3subsub1",
-                    "c2sub3subsub2",
-                    "c2sub3subsub3",
-                    "c2sub3subsub4",
-                    "c2sub3subsub5",
-                    "c2sub3subsub6",
-                    "c2sub3subsub7"
-                ]
-            },
-            {
-                "subcategory":"c2subcategory4",
-                "subsub":[
-                    "c2sub4subsub1",
-                    "c2sub4subsub2",
-                    "c2sub4subsub3",
-                    "c2sub4subsub4",
-                    "c2sub4subsub5",
-                    "c2sub4subsub6",
-                    "c2sub4subsub7"
-                ]
-            }
+        "category": "Banking",
+        "sub": [
+          {
+            "subcategory": "Retail Banking",
+            "subsub": [
+              "Personal Accounts",
+              "Savings Accounts",
+              "Checking Accounts",
+              "Consumer Loans",
+              "Credit Cards",
+              "Mortgages"
+            ]
+          },
+          {
+            "subcategory": "Corporate Banking",
+            "subsub": [
+              "Commercial Loans",
+              "Trade Finance",
+              "Cash Management",
+              "Corporate Accounts",
+              "Treasury Services",
+              "Risk Management"
+            ]
+          },
+          {
+            "subcategory": "Investment Banking",
+            "subsub": [
+              "Mergers & Acquisitions",
+              "Underwriting",
+              "Corporate Finance",
+              "Financial Advisory",
+              "Securities Trading",
+              "Capital Markets"
+            ]
+          },
+          {
+            "subcategory": "Private Banking",
+            "subsub": [
+              "Wealth Management",
+              "Private Client Services",
+              "Estate Planning",
+              "Investment Advisory",
+              "Trust Services",
+              "Concierge Banking"
+            ]
+          },
+          {
+            "subcategory": "Digital Banking",
+            "subsub": [
+              "Online Banking",
+              "Mobile Banking",
+              "Digital Wallets",
+              "Payments Solutions",
+              "Blockchain Technology",
+              "Fintech Partnerships"
+            ]
+          },
+          {
+            "subcategory": "Central Banking",
+            "subsub": [
+              "Monetary Policy",
+              "Bank Regulation",
+              "Currency Issuance",
+              "Reserve Management",
+              "Financial Stability",
+              "Interbank Settlement"
+            ]
+          }
         ]
     },
     {
-        "category":"category3",
-        "sub":[
-            {
-                "subcategory":"c3subcategory1",
-                "subsub":[
-                    "c3sub1subsub1",
-                    "c3sub1subsub2",
-                    "c3sub1subsub3",
-                    "c3sub1subsub4",
-                    "c3sub1subsub5",
-                    "c3sub1subsub6",
-                    "c3sub1subsub7"
-                ]
-            },
-            {
-                "subcategory":"c3subcategory2",
-                "subsub":[
-                    "c3sub2subsub1",
-                    "c3sub2subsub2",
-                    "c3sub2subsub3",
-                    "c3sub2subsub4",
-                    "c3sub2subsub5",
-                    "c3sub2subsub6",
-                    "c3sub2subsub7"
-                ]
-            },
-            {
-                "subcategory":"c3subcategory3",
-                "subsub":[
-                    "c3sub3subsub1",
-                    "c3sub3subsub2",
-                    "c3sub3subsub3",
-                    "c3sub3subsub4",
-                    "c3sub3subsub5",
-                    "c3sub3subsub6",
-                    "c3sub3subsub7"
-                ]
-            },
-            {
-                "subcategory":"c3subcategory4",
-                "subsub":[
-                    "c3sub4subsub1",
-                    "c3sub4subsub2",
-                    "c3sub4subsub3",
-                    "c3sub4subsub4",
-                    "c3sub4subsub5",
-                    "c3sub4subsub6",
-                    "c3sub4subsub7"
-                ]
-            }
+        "category": "Manufacturing",
+        "sub": [
+          {
+            "subcategory": "Automotive Manufacturing",
+            "subsub": [
+              "Vehicle Assembly",
+              "Engine Manufacturing",
+              "Parts Production",
+              "Quality Control",
+              "Supply Chain Management",
+              "Electric Vehicles"
+            ]
+          },
+          {
+            "subcategory": "Electronics Manufacturing",
+            "subsub": [
+              "Semiconductor Fabrication",
+              "PCB Assembly",
+              "Consumer Electronics",
+              "Medical Devices",
+              "Robotics",
+              "Wearable Technology"
+            ]
+          },
+          {
+            "subcategory": "Food and Beverage Manufacturing",
+            "subsub": [
+              "Food Processing",
+              "Beverage Production",
+              "Packaging",
+              "Quality Assurance",
+              "Supply Chain Logistics",
+              "Nutraceuticals"
+            ]
+          },
+          {
+            "subcategory": "Textile and Apparel Manufacturing",
+            "subsub": [
+              "Fabric Production",
+              "Clothing Manufacturing",
+              "Textile Printing",
+              "Apparel Design",
+              "Sustainable Fashion",
+              "Garment Finishing"
+            ]
+          },
+          {
+            "subcategory": "Aerospace Manufacturing",
+            "subsub": [
+              "Aircraft Assembly",
+              "Avionics",
+              "Spacecraft Manufacturing",
+              "Defense Systems",
+              "Composite Materials",
+              "Additive Manufacturing (3D Printing)"
+            ]
+          },
+          {
+            "subcategory": "Pharmaceutical Manufacturing",
+            "subsub": [
+              "Drug Formulation",
+              "Biopharmaceutical Production",
+              "Packaging and Labeling",
+              "Quality Control",
+              "Regulatory Compliance",
+              "Clinical Trials"
+            ]
+          }
         ]
     },
     {
-        "category":"category4",
-        "sub":[
-            {
-                "subcategory":"c4subcategory1",
-                "subsub":[
-                    "c4sub1subsub1",
-                    "c4sub1subsub2",
-                    "c4sub1subsub3",
-                    "c4sub1subsub4",
-                    "c4sub1subsub5",
-                    "c4sub1subsub6",
-                    "c4sub1subsub7"
-                ]
-            },
-            {
-                "subcategory":"c4subcategory2",
-                "subsub":[
-                    "c4sub2subsub1",
-                    "c4sub2subsub2",
-                    "c4sub2subsub3",
-                    "c4sub2subsub4",
-                    "c4sub2subsub5",
-                    "c4sub2subsub6",
-                    "c4sub2subsub7"
-                ]
-            },
-            {
-                "subcategory":"c4subcategory3",
-                "subsub":[
-                    "c4sub3subsub1",
-                    "c4sub3subsub2",
-                    "c4sub3subsub3",
-                    "c4sub3subsub4",
-                    "c4sub3subsub5",
-                    "c4sub3subsub6",
-                    "c4sub3subsub7"
-                ]
-            },
-            {
-                "subcategory":"c4subcategory4",
-                "subsub":[
-                    "c4sub4subsub1",
-                    "c4sub4subsub2",
-                    "c4sub4subsub3",
-                    "c4sub4subsub4",
-                    "c4sub4subsub5",
-                    "c4sub4subsub6",
-                    "c4sub4subsub7"
-                ]
-            }
+        "category": "Mining",
+        "sub": [
+          {
+            "subcategory": "Coal Mining",
+            "subsub": [
+              "Surface Mining",
+              "Underground Mining",
+              "Mine Safety",
+              "Coal Processing",
+              "Mine Reclamation",
+              "Coal Transportation"
+            ]
+          },
+          {
+            "subcategory": "Metal Ore Mining",
+            "subsub": [
+              "Iron Ore Mining",
+              "Gold Mining",
+              "Copper Mining",
+              "Bauxite Mining",
+              "Nickel Mining",
+              "Zinc Mining"
+            ]
+          },
+          {
+            "subcategory": "Nonmetallic Mineral Mining",
+            "subsub": [
+              "Limestone Mining",
+              "Sand and Gravel Mining",
+              "Clay Mining",
+              "Gypsum Mining",
+              "Phosphate Mining",
+              "Salt Mining"
+            ]
+          },
+          {
+            "subcategory": "Oil and Gas Extraction",
+            "subsub": [
+              "Exploration",
+              "Drilling",
+              "Production",
+              "Refining",
+              "Transportation",
+              "Reservoir Management"
+            ]
+          },
+          {
+            "subcategory": "Quarrying",
+            "subsub": [
+              "Stone Quarrying",
+              "Marble Quarrying",
+              "Granite Quarrying",
+              "Slate Quarrying",
+              "Dimension Stone",
+              "Aggregate Production"
+            ]
+          },
+          {
+            "subcategory": "Mining Support Activities",
+            "subsub": [
+              "Geophysical Surveys",
+              "Drilling Services",
+              "Equipment Maintenance",
+              "Mine Site Preparation",
+              "Environmental Services",
+              "Mining Consultancy"
+            ]
+          }
         ]
-    }
+    },
+    {
+        "category": "Oil & Gas",
+        "sub": [
+          {
+            "subcategory": "Exploration",
+            "subsub": [
+              "Geological Surveys",
+              "Seismic Data Analysis",
+              "Geophysical Surveys",
+              "Exploratory Drilling",
+              "Reservoir Characterization",
+              "Data Interpretation"
+            ]
+          },
+          {
+            "subcategory": "Production",
+            "subsub": [
+              "Well Drilling",
+              "Well Completion",
+              "Well Testing",
+              "Enhanced Oil Recovery",
+              "Production Optimization",
+              "Artificial Lift Systems"
+            ]
+          },
+          {
+            "subcategory": "Refining",
+            "subsub": [
+              "Crude Oil Distillation",
+              "Catalytic Cracking",
+              "Hydrotreating",
+              "Blending",
+              "Petrochemical Production",
+              "Sulfur Recovery"
+            ]
+          },
+          {
+            "subcategory": "Transportation",
+            "subsub": [
+              "Pipeline Transport",
+              "Oil Tankers",
+              "Gas Pipelines",
+              "LNG Shipping",
+              "Rail Transport",
+              "Trucking"
+            ]
+          },
+          {
+            "subcategory": "Storage",
+            "subsub": [
+              "Tank Farms",
+              "Underground Storage",
+              "LNG Storage",
+              "Floating Storage",
+              "Storage Terminals",
+              "Storage Management"
+            ]
+          },
+          {
+            "subcategory": "Distribution",
+            "subsub": [
+              "Retail Fuel Stations",
+              "Wholesale Distribution",
+              "Bulk Storage",
+              "LPG Distribution",
+              "Pipeline Distribution",
+              "Market Analysis"
+            ]
+          }
+        ]
+    },
+    {
+        "category": "Retail",
+        "sub": [
+          {
+            "subcategory": "E-commerce",
+            "subsub": [
+              "Online Marketplaces",
+              "Direct-to-Consumer",
+              "Subscription Services",
+              "Mobile Commerce",
+              "Social Commerce",
+              "Omni-Channel Retailing"
+            ]
+          },
+          {
+            "subcategory": "Brick-and-Mortar",
+            "subsub": [
+              "Department Stores",
+              "Grocery Stores",
+              "Specialty Stores",
+              "Convenience Stores",
+              "Discount Stores",
+              "Warehouse Clubs"
+            ]
+          },
+          {
+            "subcategory": "Luxury Retail",
+            "subsub": [
+              "High-End Fashion",
+              "Luxury Jewelry",
+              "Designer Brands",
+              "Luxury Watches",
+              "Exclusive Boutiques",
+              "Personal Shopping Services"
+            ]
+          },
+          {
+            "subcategory": "Fast-Moving Consumer Goods (FMCG)",
+            "subsub": [
+              "Food and Beverage",
+              "Personal Care",
+              "Household Products",
+              "Over-the-Counter Medicines",
+              "Tobacco Products",
+              "Pet Care"
+            ]
+          },
+          {
+            "subcategory": "Home and Garden",
+            "subsub": [
+              "Home Improvement",
+              "Furniture",
+              "Gardening Supplies",
+              "Home Décor",
+              "Appliances",
+              "Outdoor Furniture"
+            ]
+          },
+          {
+            "subcategory": "Electronics and Appliances",
+            "subsub": [
+              "Consumer Electronics",
+              "Home Appliances",
+              "Computers and Accessories",
+              "Mobile Devices",
+              "Audio and Video Equipment",
+              "Smart Home Devices"
+            ]
+          }
+        ]
+    },
+    {
+        "category": "Tourism",
+        "sub": [
+          {
+            "subcategory": "Cultural Tourism",
+            "subsub": [
+              "Historical Sites",
+              "Museums",
+              "Cultural Festivals",
+              "Heritage Tours",
+              "Archaeological Sites",
+              "Art Galleries"
+            ]
+          },
+          {
+            "subcategory": "Adventure Tourism",
+            "subsub": [
+              "Hiking and Trekking",
+              "Scuba Diving",
+              "Rock Climbing",
+              "White-Water Rafting",
+              "Safari Tours",
+              "Extreme Sports"
+            ]
+          },
+          {
+            "subcategory": "Ecotourism",
+            "subsub": [
+              "Wildlife Watching",
+              "Nature Trails",
+              "Conservation Tours",
+              "Eco-Lodges",
+              "Botanical Gardens",
+              "Marine Sanctuaries"
+            ]
+          },
+          {
+            "subcategory": "Medical Tourism",
+            "subsub": [
+              "Medical Procedures",
+              "Wellness Retreats",
+              "Spa Treatments",
+              "Dental Tourism",
+              "Cosmetic Surgery",
+              "Rehabilitation Centers"
+            ]
+          },
+          {
+            "subcategory": "Business Tourism",
+            "subsub": [
+              "Conferences and Conventions",
+              "Corporate Meetings",
+              "Trade Shows",
+              "Incentive Travel",
+              "Exhibitions",
+              "Business Events"
+            ]
+          },
+          {
+            "subcategory": "Gastronomic Tourism",
+            "subsub": [
+              "Food Festivals",
+              "Wine Tours",
+              "Cooking Classes",
+              "Gourmet Restaurants",
+              "Street Food Tours",
+              "Local Markets"
+            ]
+          }
+        ]
+      }                        
 ]

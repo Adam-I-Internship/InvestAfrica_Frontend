@@ -1,0 +1,122 @@
+[
+    {
+        "company_name": "Apple Inc.",
+        "industry": "Technology",
+        "headquarters": "Cupertino, CA, USA",
+        "description": "Designs, manufactures, and markets consumer electronics and software."
+    },
+    {
+        "company_name": "Microsoft Corporation",
+        "industry": "Technology",
+        "headquarters": "Redmond, WA, USA",
+        "description": "Develops, licenses, and supports software products and services."
+    },
+    {
+        "company_name": "Amazon.com, Inc.",
+        "industry": "E-commerce",
+        "headquarters": "Seattle, WA, USA",
+        "description": "Operates a vast online marketplace and cloud computing services."
+    },
+    {
+        "company_name": "Google LLC",
+        "industry": "Technology",
+        "headquarters": "Mountain View, CA, USA",
+        "description": "Specializes in Internet-related services and products."
+    },
+    {
+        "company_name": "Facebook, Inc.",
+        "industry": "Social Media",
+        "headquarters": "Menlo Park, CA, USA",
+        "description": "Operates a social networking platform."
+    },
+    {
+        "company_name": "Tesla, Inc.",
+        "industry": "Automotive",
+        "headquarters": "Palo Alto, CA, USA",
+        "description": "Designs and manufactures electric vehicles and energy storage products."
+    },
+    {
+        "company_name": "The Coca-Cola Company",
+        "industry": "Beverages",
+        "headquarters": "Atlanta, GA, USA",
+        "description": "Produces and sells soft drinks and non-alcoholic beverages."
+    },
+    {
+        "company_name": "Walmart Inc.",
+        "industry": "Retail",
+        "headquarters": "Bentonville, AR, USA",
+        "description": "Operates a chain of hypermarkets, discount department stores, and grocery stores."
+    },
+    {
+        "company_name": "Samsung Electronics Co., Ltd.",
+        "industry": "Technology",
+        "headquarters": "Suwon, South Korea",
+        "description": "Manufactures consumer electronics and home appliances."
+    },
+    {
+        "company_name": "Toyota Motor Corporation",
+        "industry": "Automotive",
+        "headquarters": "Toyota, Japan",
+        "description": "Designs, manufactures, and sells motor vehicles and parts."
+    },
+    {
+        "company_name": "Intel Corporation",
+        "industry": "Technology",
+        "headquarters": "Santa Clara, CA, USA",
+        "description": "Designs and manufactures semiconductor chips and processors."
+    },
+    {
+        "company_name": "Procter & Gamble Co.",
+        "industry": "Consumer Goods",
+        "headquarters": "Cincinnati, OH, USA",
+        "description": "Produces and sells household and personal care products."
+    },
+    {
+        "company_name": "Johnson & Johnson",
+        "industry": "Healthcare",
+        "headquarters": "New Brunswick, NJ, USA",
+        "description": "Develops medical devices, pharmaceuticals, and consumer health products."
+    },
+    {
+        "company_name": "Visa Inc.",
+        "industry": "Financial Services",
+        "headquarters": "San Francisco, CA, USA",
+        "description": "Facilitates electronic funds transfers worldwide."
+    },
+    {
+        "company_name": "JPMorgan Chase & Co.",
+        "industry": "Financial Services",
+        "headquarters": "New York, NY, USA",
+        "description": "Provides investment banking, financial services, and asset management."
+    },
+    {
+        "company_name": "Nestl\u00e9 S.A.",
+        "industry": "Food and Beverage",
+        "headquarters": "Vevey, Switzerland",
+        "description": "Produces and sells a wide range of food and beverage products."
+    },
+    {
+        "company_name": "Pfizer Inc.",
+        "industry": "Pharmaceuticals",
+        "headquarters": "New York, NY, USA",
+        "description": "Develops and manufactures healthcare products, including vaccines."
+    },
+    {
+        "company_name": "Alibaba Group Holding Limited",
+        "industry": "E-commerce",
+        "headquarters": "Hangzhou, China",
+        "description": "Operates online and mobile marketplaces in retail and wholesale trade."
+    },
+    {
+        "company_name": "Berkshire Hathaway Inc.",
+        "industry": "Conglomerate",
+        "headquarters": "Omaha, NE, USA",
+        "description": "Operates in various sectors, including insurance, utilities, and manufacturing."
+    },
+    {
+        "company_name": "Sony Corporation",
+        "industry": "Electronics",
+        "headquarters": "Tokyo, Japan",
+        "description": "Produces electronics, gaming, entertainment, and financial services."
+    }
+]
