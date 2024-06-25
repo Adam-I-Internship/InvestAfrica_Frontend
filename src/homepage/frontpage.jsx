@@ -7,7 +7,6 @@ import ScrollComponent from './scrollcomponent'
 import Map from './map'
 import Review from './review'
 import Endpart from './endpart'
-import vid from "../images/kfp.mp4"
 import pic1 from "../images/pic1.png"
 import pic2 from "../images/pic2.png"
 import pic3 from "../images/pic3.png"
