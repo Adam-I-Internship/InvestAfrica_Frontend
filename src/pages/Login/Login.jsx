@@ -46,6 +46,7 @@ function Login() {
       accountType: formData.accountType,
       remember: formData.remember,
     };
+    console.log(LOGIN_URL);
     setButtonText('...');
     try {
       const response = await fetch(LOGIN_URL, {
@@ -57,7 +58,6 @@ function Login() {
       });
       let alertMessage = '';
       let alertState = '';
-
       if (response.ok) {
         alertMessage = 'Login successful. Redirecting...';
         alertState = 'success';

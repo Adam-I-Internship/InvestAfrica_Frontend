@@ -62,9 +62,9 @@ function Register() {
       country: formData.country,
       name: formData.name,
       email: formData.email,
+      phoneNumber: formData.phoneNumber,
       accountPassword: formData.accountPassword,
       confirmPassword: formData.confirmPassword,
-      phoneNumber: formData.phoneNumber,
     };
     setButtonText('...');
 

@@ -1,14 +1,17 @@
 import React, { useEffect,useState } from 'react';
 import "./search.css";
 import { IoSearch } from "react-icons/io5";
-import company from "./company.json";
+import axios from 'axios';
+
+const LINK = `${import.meta.env.VITE_APP_BACKEND_URL}/companydisplay`;
 
 function Search() {
 
     const [search, setSearch] = useState("");
     const [suggest, setSuggest] = useState(false);
+    const [company, setCompany] = useState([]);
 
-    const companydata = company.filter(f => f.company_name.toLowerCase().includes(search.toLowerCase()));
+    const companydata = company.filter(f => f.companyName.toLowerCase().includes(search.toLowerCase()));
 
     const handleInput =(e)=>{
         setSearch(e.target.value);
@@ -20,7 +23,6 @@ function Search() {
         const realelement = element.querySelector("#sticky");
         const tab = realelement.querySelector("#table");
         const pos = tab.getBoundingClientRect().top + window.scrollY;
-        const inputfield = tab.querySelector("#searchbox");
         
         window.onscroll = () => {
             if (window.scrollY > pos) {
@@ -33,6 +35,11 @@ function Search() {
                 tab.style.border = "";
             }
         };
+
+        axios.get(LINK)
+        .then((res) => {
+            setCompany(res.data);
+        });
 
     }, []);
 
@@ -60,8 +67,8 @@ function Search() {
                 <div className="suggestion" id={suggest ? "part" : ""} onMouseEnter={()=>setSuggest(true)} onMouseLeave={()=>setSuggest(false)}>
                     {
                         companydata.map((company, index) => (
-                            <div id="part" onClick={()=>setSearch(company.company_name)}>
-                                <p>{company.company_name}</p>
+                            <div id="part" onClick={()=>setSearch(company.companyName)}>
+                                <p>{company.companyName}</p>
                             </div>
                         ))
                     }
@@ -74,7 +81,7 @@ function Search() {
                             <td>Frequently search:</td>
                             {
                                 company.slice(0,3).map((item,key) => (
-                                    <td id="just">{item.company_name}</td>
+                                    <td id="just">{item.companyName}</td>
                                 ))
                             }
                         </tr>

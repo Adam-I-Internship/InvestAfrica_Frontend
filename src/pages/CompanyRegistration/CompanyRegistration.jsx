@@ -199,6 +199,17 @@ function CompanyRegistration() {
                 />
                 <InputBox
                   id="businessType"
+                  label="Industry"
+                  required
+                  name="industry"
+                  type="text"
+                  onChange={handleChange}
+                  value={formData.industry}
+                  size="large"
+                  message={errors.businessType}
+                />
+                <InputBox
+                  id="businessType"
                   label="Business Type"
                   required
                   name="businessType"

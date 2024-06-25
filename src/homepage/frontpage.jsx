@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { useNavigate } from 'react-router-dom'
 import "./frontpage.css"
 import Navigation from './navigation'
@@ -22,7 +22,7 @@ function Frontpage() {
       <Navigation/>
       <div id='search'>
         <Search/>
-        <video src={vid} autoPlay loop muted id='video'></video>
+        <video src="https://cdn.builder.io/o/assets%2Fc06c8574749d44938d28ca8b23064d20%2F5776c75d4d574e8ead932250b0d57f73%2Fcompressed?apiKey=c06c8574749d44938d28ca8b23064d20&token=5776c75d4d574e8ead932250b0d57f73&alt=media&optimized=true" autoPlay loop muted disablePictureInPicture id='video'></video>
       </div>
       <div className='scroll'>
         <table>
