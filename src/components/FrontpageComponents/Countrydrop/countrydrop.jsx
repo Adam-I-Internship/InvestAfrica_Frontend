@@ -2,9 +2,9 @@ import React,{useState} from 'react'
 import "./countrydrop.css"
 import { MdArrowOutward } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
-import data from "./maplist.json"
-import map from "../images/smallmap.png"
-import scim from "../images/dropscroll.png"
+import data from "../Map/maplist.json"
+import map from "../../../assets/images/smallmap.png"
+import scim from "../../../assets/images/dropscroll.png"
 
 function Countrydrop() {
 

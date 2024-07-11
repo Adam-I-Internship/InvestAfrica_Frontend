@@ -7,7 +7,7 @@ import Alert from '../../components/Alert/Alert';
 import Button from '../../components/Button/Button';
 import FadeTransition from '../../components/FadeTransition/FadeTransition';
 import InputBox from '../../components/InputBox/InputBox'; // Make sure to import InputBox component
-import Navigation from "../../homepage/navigation";
+import Navigation from "../../components/FrontpageComponents/Navigation/navigation";
 
 function CompanyRegistration() {
   const REGISTRATION_URL = `${import.meta.env.VITE_APP_BACKEND_URL}/companyregister`;

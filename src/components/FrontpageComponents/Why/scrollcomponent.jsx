@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import "./frontpage.css"
+import "../../../pages/Homepage/frontpage.css"
 import data from "./industrylist.json"
-import prev from "../images/back.png"
-import next from "../images/next.png"
+import prev from "../../../assets/images/back.png"
+import next from "../../../assets/images/next.png"
 
 function Scrollcomponent() {
 

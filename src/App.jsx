@@ -1,15 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import IndustryPage from "./pages/IndustryPage";
-import Frontpage from "./homepage/frontpage";
+import Frontpage from "./pages/Homepage/frontpage";
 import CountryPage from "./pages/CountryPage";
 import IndustrySearch from "./pages/IndustrySearch";
 import Login from './pages/Login/Login';
-import ScrollToTop from './ScrolltoTop';
 import ForgotPassword from './components/ForgotPassword/ForgotPassword';
 import Register from './pages/Register/Register';
 import CompanyRegistration from './pages/CompanyRegistration/CompanyRegistration';
-import Navigation from "./homepage/navigation";
 
 function App() {
   return (

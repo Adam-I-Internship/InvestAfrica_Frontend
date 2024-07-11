@@ -208,7 +208,7 @@ body{
 }
 
 #crafting{
-    background-image: url("../images/crafting.png");
+    background-image: url("../../assets/images/crafting.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-width: 100vh;
@@ -219,7 +219,7 @@ body{
 }
 
 #contact{
-    background-image: url("../images/contact.png");
+    background-image: url("../../assets/images/contact.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 127px 232px;

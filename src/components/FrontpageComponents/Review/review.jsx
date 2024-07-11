@@ -2,9 +2,9 @@ import React,{useRef,useState,useEffect} from 'react'
 import axios from 'axios'
 import data from "./review.json"
 import "./review.css"
-import prev from "../images/back.png"
-import next from "../images/next.png"
-import profile from "../images/profileicon.png"
+import prev from "../../../assets/images/back.png"
+import next from "../../../assets/images/next.png"
+import profile from "../../../assets/images/profileicon.png"
 
 function Review() {
 

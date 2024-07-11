@@ -1,9 +1,9 @@
 import React from 'react'
 import "./endpart.css"
-import facebook from "../images/social/facebook.png"
-import insta from "../images/social/insta.png"
-import twitter  from "../images/social/twitter.svg"
-import youtube from "../images/social/youtube.png"
+import facebook from "../../../assets/images/social/facebook.png"
+import insta from "../../../assets/images/social/insta.png"
+import twitter  from "../../../assets/images/social/twitter.svg"
+import youtube from "../../../assets/images/social/youtube.png"
 
 function Endpart() {
   return (

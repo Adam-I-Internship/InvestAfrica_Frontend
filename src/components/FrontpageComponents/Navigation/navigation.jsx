@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './navigation.css';
+import '../Navigation/navigation.css';
 import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 import { CiGlobe } from 'react-icons/ci';
-import Countrydrop from './countrydrop';
-import About from './about';
-import Industrydrop from './industrydrop';
-import logo from '../images/logo.png';
+import Countrydrop from '../Countrydrop/countrydrop';
+import About from '../About/about';
+import Industrydrop from '../Industrydrop/industrydrop';
+import logo from '../../../assets/images/logo.png';
 
 function Navigation() {
   const [iscountry, setIscountry] = useState(false);

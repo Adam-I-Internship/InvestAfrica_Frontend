@@ -7,7 +7,7 @@ import Button from '../../components/Button/Button';
 import Alert from '../../components/Alert/Alert';
 import InputBox from '../../components/InputBox/InputBox';
 import FadeTransition from '../../components/FadeTransition/FadeTransition';
-import Navigation from "../../homepage/navigation";
+import Navigation from "../../components/FrontpageComponents/Navigation/navigation";
 
 function Register() {
   const REGISTRATION_URL = `${import.meta.env.VITE_APP_BACKEND_URL}/userregister`;

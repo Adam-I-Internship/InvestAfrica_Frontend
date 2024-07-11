@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./map.css"
 import data from "./maplist.json"
-import map from "../images/map.png"
+import map from "../../../assets/images/map.png"
 import { IoSearch } from "react-icons/io5";
 
 function Map() {
